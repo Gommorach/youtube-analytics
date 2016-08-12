@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Youtube Playlist Graph</title>
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.0/Chart.bundle.js"></script>
+    <script src="http://apis.google.com/js/api.js"></script>
+    <script src="index/async101.js"></script>
+  </head>
+<body>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index/stylesheet.css">
+    <div class="container">
+      <h1>Youtube Playlist Graph</h1>
+        <div>
+          <label for="playlistId" id="labelPlaylistId">playlistId: </label>
+            <input type="text" class="form-control" id="playlistId" placeholder="Id of playlist" class="form-control">
+        </div>
+        <br>
+        <button class="btn btn-lg btn-info" id="drawGraph" style="float:left;">
+          Draw graph
+        </button>
+        <div class="box"></div>
+      <canvas id="myChart"></canvas>
+      <div class="reverseCheck">
+        <label class="form-check-label"><br>
+          <input type="checkbox" id="reverse" value="reverse"> Reverse order
+        </label>
+      </div>
+      </div>
+      
+</body>
+</html>

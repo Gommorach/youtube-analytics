@@ -1,0 +1,15 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "my test nodejs",
+  "main": "test.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
