@@ -1,6 +1,5 @@
-//what to do when playlistitem is removed
-
-var key = 'AIzaSyAY4zeqDGZsAqAhX_nT4WmhIVRYglzfNHA';
+//put you private youtube api key on line 2
+var key = '';
 var dbConfig = {host: '127.0.0.1', user: 'nodeapp', password: '123456', database: 'youtubegraph'};
 
 var mysql   = require('mysql');
